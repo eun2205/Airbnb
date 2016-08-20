@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             }
             case R.id.menu_wishlist: {
+                startActivity(new Intent(MainActivity.this, WishListActivity.class));
                 break;
             }
             case R.id.menu_profile: {
